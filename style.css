@@ -1,0 +1,59 @@
+.one{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.luka{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+@media (min-width:992px) {
+    .luka{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:576px) {
+    .luka{
+        width: 100%;
+        height: auto;
+    }
+}
+.col-lg-8-mx-auto-lead-mt-2{
+    font-size:50px;
+    color: aqua;
+}
+ 
+.profile-img{
+    border-radius: 50%;
+}
+
+h1{
+color:seagreen;
+}
+h2{
+    color:darkgreen
+}
+h3{
+    color:gold; 
+    font-size: 50px;
+    
+}
+.lead{
+    color: dodgerblue;
+}
+
+.AAA{
+    color: blue;
+}
+.SSS{
+    color:darkblue
+}
+.bottom-container{
+    background-color:aqua
+}
